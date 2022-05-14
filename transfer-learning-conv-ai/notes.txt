@@ -1,0 +1,13 @@
+install command
+'cd [the folder containing the project folder]'
+Ex: cd ./Python (I have the projects folder in another folder called 'Python')
+py -m pip install -r ./transfer-learning-conv-ai/requirements.txt
+if it fails, install them with pip manually
+
+run command
+py ./transfer-learning-conv-ai/interact.py --model_checkpoint ./transfer-learning-conv-ai/finetuned_chatbot_gpt
+optional args
+--device cpu
+--model gpt2
+command with all args
+py ./transfer-learning-conv-ai/interact.py --model_checkpoint ./transfer-learning-conv-ai/finetuned_chatbot_gpt --device cpu --model gpt2
